@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: HWSpring3
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: eich
+    password: 111
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console.enabled: true
